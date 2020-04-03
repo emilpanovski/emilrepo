@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testngexercise.NoUsernameWrongPassword">
+        <methods>
+          <include name="correctUsername"/>
+          <include name="openUrl"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testngexercise.NoUsernameWrongPassword -->
+      <class name="testngexercise.WrongUsernameWrongPassword">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="openUrl"/>
+          <include name="correctUsername"/>
+        </methods>
+      </class> <!-- testngexercise.WrongUsernameWrongPassword -->
+      <class name="testngexercise.NoStringLogin">
+        <methods>
+          <include name="openUrl"/>
+          <include name="verifyNoStringText"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testngexercise.NoStringLogin -->
+      <class name="testngexercise.CorrectUsernameNoPassword">
+        <methods>
+          <include name="openUrl"/>
+          <include name="correctUsername"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testngexercise.CorrectUsernameNoPassword -->
+      <class name="testngexercise.WrongUserNameNoPassword">
+        <methods>
+          <include name="openUrl"/>
+          <include name="correctUsername"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testngexercise.WrongUserNameNoPassword -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

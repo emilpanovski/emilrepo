@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-03T08:21:41Z" name="Suite" finished-at="2020-04-03T08:21:58Z" duration-ms="17579">
+    <groups>
+    </groups>
+    <test started-at="2020-04-03T08:21:41Z" name="Test" finished-at="2020-04-03T08:21:58Z" duration-ms="17579">
+      <class name="testngexercise.elementVerification">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:41Z" name="openUrl" finished-at="2020-04-03T08:21:56Z" duration-ms="15420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="verifyHomepageTitle()[pri:1, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:56Z" name="verifyHomepageTitle" finished-at="2020-04-03T08:21:56Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="findElementlogin()[pri:2, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:56Z" name="findElementlogin" finished-at="2020-04-03T08:21:57Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementlogin -->
+        <test-method signature="clickLogin()[pri:3, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="clickLogin" finished-at="2020-04-03T08:21:57Z" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="findElementEmail()[pri:4, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="findElementEmail" finished-at="2020-04-03T08:21:57Z" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementEmail -->
+        <test-method signature="findElementfb()[pri:6, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="findElementfb" finished-at="2020-04-03T08:21:57Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementfb -->
+        <test-method signature="findElementtw()[pri:7, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="findElementtw" finished-at="2020-04-03T08:21:57Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementtw -->
+        <test-method signature="findElementtwch()[pri:8, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="findElementtwch" finished-at="2020-04-03T08:21:57Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementtwch -->
+        <test-method signature="findElementggl()[pri:9, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:57Z" name="findElementggl" finished-at="2020-04-03T08:21:58Z" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementggl -->
+        <test-method signature="frgPassFormBtn()[pri:10, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="frgPassFormBtn" finished-at="2020-04-03T08:21:58Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frgPassFormBtn -->
+        <test-method signature="loginBtn()[pri:11, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="loginBtn" finished-at="2020-04-03T08:21:58Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBtn -->
+        <test-method signature="signupBtn()[pri:12, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="signupBtn" finished-at="2020-04-03T08:21:58Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupBtn -->
+        <test-method signature="closeBtn()[pri:13, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="closeBtn" finished-at="2020-04-03T08:21:58Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBtn -->
+        <test-method signature="gamesportBtn()[pri:14, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="gamesportBtn" finished-at="2020-04-03T08:21:58Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gamesportBtn -->
+        <test-method signature="verifyText()[pri:14, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="verifyText" finished-at="2020-04-03T08:21:58Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testngexercise.elementVerification@8297b3a]" started-at="2020-04-03T08:21:58Z" name="closeDriver" finished-at="2020-04-03T08:21:58Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testngexercise.elementVerification -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

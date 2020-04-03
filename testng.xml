@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngexercise.NoUsernameWrongPassword"/>
+      <class name="testngexercise.NoStringLogin"/>
+      <class name="testngexercise.WrongUsernameWrongPassword"/>
+      <class name="testngexercise.WrongUserNameNoPassword"/>
+      <class name="testngexercise.elementVerification"/>
+      <class name="testngexercise.CorrectUsernameNoPassword"/>
+      <class name="testngexercise.forgotPasswordTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
